@@ -1,0 +1,23 @@
+/* Primary navigation */
+.cd-primary-nav ul {
+    li {
+        padding: 5px 0;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+/* Other links */
+.cd-box div:not(:first-child){
+    ul {
+        display: flex;
+    }
+    li {
+        margin: 5px 15px;
+        a {
+            color: black;
+        }
+    }
+}

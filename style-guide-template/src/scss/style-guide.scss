@@ -402,3 +402,18 @@ select {
 }
 
 @import 'partials/basic-style';
+
+/* Wireframe */
+
+figure {
+  padding: 20px;
+  figcaption {
+    padding: 5px;
+    margin: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 1px solid grey;
+  }
+}
+
+@import 'partials/navigation';

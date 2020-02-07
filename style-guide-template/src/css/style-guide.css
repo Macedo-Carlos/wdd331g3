@@ -1046,4 +1046,36 @@ section:nth-of-type(10) h2::before {
   display: none;
 }
 
+/* Wireframe */
+figure {
+  padding: 20px;
+}
+figure figcaption {
+  padding: 5px;
+  margin: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  border-bottom: 1px solid grey;
+}
+
+/* Primary navigation */
+.cd-primary-nav ul li {
+  padding: 5px 0;
+}
+.cd-primary-nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Other links */
+.cd-box div:not(:first-child) ul {
+  display: flex;
+}
+.cd-box div:not(:first-child) li {
+  margin: 5px 15px;
+}
+.cd-box div:not(:first-child) li a {
+  color: black;
+}
+
 /*# sourceMappingURL=style-guide.css.map */
