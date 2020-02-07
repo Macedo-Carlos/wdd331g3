@@ -1,1 +1,10 @@
-Our theme is ocean with cartoon underwater creatures that can move/sway and bubbles that can float up the screen.
+WDD 331 Advance CSS
+Group 3
+
+Team Menbers:
+Jennifer Harris
+Robert Govia Govia Suarez
+Carlos Macedo
+
+Plan for our project theme: 
+Our theme is an ocean with cartoon underwater creatures that can move/sway and bubbles that can float up the screen. The small screen view will have an accordion menu and the large screen view will have the menu on the right side as a permanent fixture.
