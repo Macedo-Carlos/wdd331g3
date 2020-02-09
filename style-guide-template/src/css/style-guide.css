@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Irish+Grover|Josefin+Sans&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -69,7 +70,7 @@ xPatterns
 -------------------------------- */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid #e6e6e6;
+  border: 1px solid #91a2e8;
   border-radius: 3px;
   background: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -82,12 +83,12 @@ xNavigation
 
 -------------------------------- */
 header {
-  background-color: #19191a;
+  background-color: #ffc640;
 }
 
 .cd-logo {
   /* logo box style */
-  background-color: #5f8ee4;
+  background-color: #4560cb;
   width: 120px;
 }
 @media only screen and (min-width: 1024px) {
@@ -98,19 +99,19 @@ header {
 
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
-  background: #19191a;
+  background: #ffc640;
 }
 .cd-main-nav li a {
   color: #ffffff;
-  border-color: #262627;
+  border-color: #ffce5a;
 }
 @media only screen and (min-width: 1024px) {
   .cd-main-nav li a {
-    color: #7d7d82;
+    color: white;
   }
   .cd-main-nav li a.selected {
     color: #ffffff;
-    box-shadow: 0 2px 0 #5f8ee4;
+    box-shadow: 0 2px 0 #4560cb;
   }
   .cd-main-nav li a:hover {
     color: #ffffff;
@@ -137,19 +138,19 @@ header {
 
 .cd-download {
   /* download button top-right visible on big devices */
-  background-color: #323234;
+  background-color: #ffd573;
 }
 .no-touch .cd-download:hover {
-  background-color: #3f3f41;
+  background-color: #ffdd8d;
 }
 .cd-download span {
   /* tooltip */
-  background: #5f8ee4;
+  background: #4560cb;
   color: #ffffff;
 }
 .cd-download span::before {
   /* right arrow color */
-  border-color: #5f8ee4;
+  border-color: #4560cb;
 }
 
 /* -------------------------------- 
@@ -158,7 +159,7 @@ xPage title
 
 -------------------------------- */
 main > h1 {
-  color: #19191a;
+  color: #ffc640;
 }
 @media only screen and (min-width: 1600px) {
   main > h1 {
@@ -174,8 +175,8 @@ xTypography
 -------------------------------- */
 h1,
 h2 {
-  font-family: "Open Sans", sans-serif;
-  color: #19191a;
+  font-family: "Irish Grover", cursive;
+  color: #ffc640;
 }
 
 h1 {
@@ -209,16 +210,16 @@ h2 {
 
 section > h2::before {
   /* number before each section title */
-  color: silver;
+  color: #526ddb;
 }
 
 p {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: #58585b;
+  color: #ffecc0;
 }
 p a {
-  color: #5f8ee4;
+  color: #4560cb;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -238,17 +239,17 @@ xButtons
   box-shadow: none;
   border-radius: 0.25em;
   font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Irish Grover", cursive;
   color: #ffffff;
   padding: 0.6em 2.2em;
   cursor: pointer;
-  background: #5f8ee4;
+  background: #4560cb;
 }
 .btn:focus {
   outline: none;
 }
 .no-touch .btn:hover {
-  background: #759de8;
+  background: #5971d1;
 }
 .btn.btn-success {
   background: #6fce72;
@@ -257,19 +258,19 @@ xButtons
   background: #82d485;
 }
 .btn.btn-alert {
-  background: #e4655f;
+  background: #ffe440;
 }
 .no-touch .btn.btn-alert:hover {
-  background: #e87a75;
+  background: #ffe85a;
 }
 .btn.btn-outline {
-  color: #5f8ee4;
+  color: #4560cb;
   background: transparent;
-  box-shadow: inset 0 0 0 1px #5f8ee4;
+  box-shadow: inset 0 0 0 1px #4560cb;
 }
 .no-touch .btn.btn-outline:hover {
   color: #ffffff;
-  background: #5f8ee4;
+  background: #4560cb;
 }
 @media only screen and (min-width: 768px) {
   .btn {
@@ -279,7 +280,7 @@ xButtons
 
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
-  color: #5f8ee4;
+  color: #4560cb;
 }
 
 /* -------------------------------- 
@@ -300,7 +301,7 @@ xForm
 -------------------------------- */
 input[type=text],
 select {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #91a2e8;
   border-radius: 0.25em;
   background: #ffffff;
 }
@@ -318,12 +319,12 @@ input[type=text].success {
   box-shadow: 0 0 6px rgba(111, 206, 114, 0.2);
 }
 input[type=text].alert {
-  border-color: #e4655f;
-  box-shadow: 0 0 6px rgba(228, 101, 95, 0.2);
+  border-color: #ffe440;
+  box-shadow: 0 0 6px rgba(255, 228, 64, 0.2);
 }
 input[type=text]:focus {
-  border-color: #5f8ee4;
-  box-shadow: 0 0 6px rgba(95, 142, 228, 0.2);
+  border-color: #4560cb;
+  box-shadow: 0 0 6px rgba(69, 96, 203, 0.2);
 }
 
 input[type=radio],
@@ -363,7 +364,7 @@ input[type=checkbox] {
 .radio-label::before,
 .checkbox-label::before {
   left: 0;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #91a2e8;
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03);
 }
 .radio-label::after,
@@ -383,7 +384,7 @@ input[type=checkbox] {
 
 input[type=radio]:checked + label::before,
 input[type=checkbox]:checked + label::before {
-  background-color: #19191a;
+  background-color: #ffc640;
   border: none;
   box-shadow: none;
 }
@@ -445,7 +446,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Merriweather", serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 a {
@@ -457,7 +458,7 @@ img {
 }
 
 input, textarea, select {
-  font-family: "Merriweather", serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -894,40 +895,40 @@ section:nth-of-type(10) h2::before {
   padding: 0.6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #5f8ee4;
+  background: #4560cb;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-  background: #759de8;
+  background: #5971d1;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-  background: #497fe0;
+  background: #3652c1;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #19191a;
+  background: #ffc640;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-  background: #262627;
+  background: #ffce5a;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-  background: #0d0d0d;
+  background: #ffbe27;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
-  background: #e4655f;
+  background: #ffe440;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
-  background: #e87a75;
+  background: #ffe85a;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
-  background: #e05049;
+  background: #ffe027;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
-  background: #e6e6e6;
+  background: #91a2e8;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
-  background: #f3f3f3;
+  background: #a6b4ec;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::after {
-  background: #d9d9d9;
+  background: #7c90e4;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
   background: #ffffff;
@@ -970,7 +971,7 @@ section:nth-of-type(10) h2::before {
 /* xTypography section - basic style */
 .cd-typography h1::before {
   content: "Aa - ";
-  color: #5f8ee4;
+  color: #4560cb;
 }
 
 .cd-buttons .cd-box:first-of-type {
@@ -1063,8 +1064,13 @@ figure figcaption {
   padding: 5px 0;
 }
 .cd-primary-nav ul li a {
+  padding: 5px;
   text-decoration: none;
-  color: black;
+  color: #ffc640;
+}
+.cd-primary-nav ul li a:hover {
+  color: white;
+  background-color: #ffe440;
 }
 
 /* Other links */
@@ -1075,7 +1081,17 @@ figure figcaption {
   margin: 5px 15px;
 }
 .cd-box div:not(:first-child) li a {
-  color: black;
+  color: #ffc640;
+  padding: 5px;
+}
+.cd-box div:not(:first-child) li a:hover {
+  color: white;
+  background-color: #ffe440;
+}
+
+.cd-navigation .cd-box {
+  background-color: #4560cb;
+  color: #ffc640;
 }
 
 /*# sourceMappingURL=style-guide.css.map */
