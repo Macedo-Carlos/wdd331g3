@@ -3,7 +3,7 @@
 xBasic style
 
 -------------------------------- */
-
+/*
 *, *::after, *::before {
 	@include box-sizing(border-box);
 }
@@ -98,7 +98,7 @@ header {
 			position: absolute;
 			width: 100%;
 			height: 100%;
-			/* Force Hardware Acceleration in WebKit */
+			/* Force Hardware Acceleration in WebKit *//*
 			@include transform(translateZ(0));
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
@@ -206,8 +206,8 @@ header {
 	display: none;
 	@include transition(background-color .2s);
 
-	span {
-		/* tooltip */
+	span {*/
+		/* tooltip *//*
 		position: absolute;
 		right: 120%;
 		top: 50%;
@@ -347,8 +347,8 @@ section {
 		}
 	}
 }
-
-/* xBranding section - basic style */
+*/
+/* xBranding section - basic style *//*
 
 .cd-branding {
 
@@ -413,8 +413,8 @@ section {
 		}
 	}
 }
-
-/* xColor section - basic style */
+*/
+/* xColor section - basic style *//*
 
 .cd-colors {
 
@@ -433,8 +433,8 @@ section {
 		width: 100%;
 		padding: 50% 0;
 
-		&::before, &::after {
-			/* lighter and darker color shades of the same swatch */
+		&::before, &::after {*/
+			/* lighter and darker color shades of the same swatch *//*
 			content: '';
 			position: absolute;
 			bottom: 0;
@@ -544,8 +544,8 @@ section {
 		}
 	} 
 }
-
-/* xTypography section - basic style */
+*/
+/* xTypography section - basic style *//*
 
 .cd-typography {
 
@@ -577,8 +577,8 @@ section {
 		}
 	}
 }
-
-/* xIcons section - basic style */
+*/
+/* xIcons section - basic style *//*
 
 .cd-icons {
 	li {
@@ -619,9 +619,9 @@ section {
 	.cd-icon-8 {
 		background-image: url('../assets/icons/icon-8.svg'); 
 	}
-}
+}*/
 
-/* xForm section - basic style */
+/* xForm section - basic style *//*
 
 .cd-form {
 	input[type=text],
@@ -638,7 +638,7 @@ section {
       display: none;
 	}
 }
-
+*/
 @-moz-document url-prefix(){
 	/* hide custom arrow on Firefox */
 	.cd-select::after {
