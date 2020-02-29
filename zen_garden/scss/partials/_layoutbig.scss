@@ -26,15 +26,18 @@ $L:     1600px;
 }*/
 
 /* basic elements */
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 600px){
 body { 	
 	margin: 0; 
-	padding: 0 4em;
+	padding: 0;
     background: #4560cb;
 	}
 
 /* Mobile layout */
-
+.intro, .supporting{
+    max-width: 800px;
+    margin: 0 auto;
+}
 header{
     margin-top:4em;    
 }
