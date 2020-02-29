@@ -9,15 +9,18 @@
 
 
 /* basic elements */
+@import url('https://fonts.googleapis.com/css?family=Irish+Grover|Josefin+Sans:400,400i,600,600i,700,700i&display=swap');
 html {
 	margin: 0;
 	padding: 0;
+    
 	}
 body { 	
 	margin: 0; 
-	padding: 0;
+	padding: 0 15px 0 15px;
 	}
 p { 
+    font-family:Josefin Sans;
 	margin-top: 0; 
 	text-align: justify;
 	}
@@ -45,15 +48,19 @@ abbr {
 .page-wrapper { 	
 	margin: 0; 
 	}
+header{
+    margin-top:20px;
+    
+}
 
 .intro { 	
 	}
 
 header h1 { background-color: aqua;	
-	
+    font-family:Irish Grover;
+    font-size: 45px	
 	}
-header h2 { 	background-color: blue;	
-	
+header h2 { 	background-color: blue;		
 	}
 header {
 	background-color: darkblue;
