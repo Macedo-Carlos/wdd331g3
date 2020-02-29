@@ -1,13 +1,17 @@
 @import 'partials/reset';
 @import 'partials/prefix-mixins';
-@import 'partials/layout'; // responsive grid and media queries
+@import 'partials/layout';// responsive grid and media queries
 @import 'partials/colors';
 @import 'partials/typography';
 
+
+//----------------------------------------//
+// I blocked everithing bellow for a clean start, so if eveerything works, will be needed to erase it
+//----------------------------------------//
 // additional colors
 
-$success: #6fce72; // green
-$alert: $color-3; // red
+//$success: #6fce72; // green
+//$alert: $color-3; // red
 
 
 
@@ -15,10 +19,10 @@ $alert: $color-3; // red
 
 xBackground 
 
--------------------------------- */
+-------------------------------- *//*
 
 body {
-  /* this is the page background */
+  /* this is the page background *//*
   background-color: $color-5;
 }
 
@@ -29,7 +33,7 @@ xPatterns
 -------------------------------- */
 
 .cd-box {
-  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section *//*
   border: 1px solid $color-4;
   border-radius: 3px;
   background: $color-5;
@@ -41,14 +45,14 @@ xPatterns
 
 xNavigation 
 
--------------------------------- */
+-------------------------------- *//*
 
 header {
   background-color: $color-2;
 }
 
 .cd-logo {
-  /* logo box style */
+  /* logo box style *//*
   background-color: $color-1;
   width: 120px;
 
@@ -58,7 +62,7 @@ header {
 }
 
 .cd-main-nav {
-  /* main navigation background color - full screen on small devices */
+  /* main navigation background color - full screen on small devices *//*
   background: $color-2;
 
   li a {
@@ -83,29 +87,29 @@ header {
 }
 
 .cd-nav-trigger span {
-  /* hamburger menu */
+  /* hamburger menu *//*
   background-color: $color-5;
 
   &::before,
   &::after {
-    /* upper and lower lines */
+    /* upper and lower lines *//*
     background-color: $color-5;
   }
 }
 
 .nav-is-visible .cd-nav-trigger span {
-  /* hide line in the center on mobile when nav is visible */
+  /* hide line in the center on mobile when nav is visible *//*
   background-color: rgba($color-5, 0);
 
   &::before,
   &::after {
-    /* preserve visibility of upper and lower lines - close icon */
+    /* preserve visibility of upper and lower lines - close icon *//*
     background-color: rgba($color-5, 1);
   }
 }
 
 .cd-download {
-  /* download button top-right visible on big devices */
+  /* download button top-right visible on big devices *//*
   background-color: lighten($color-2, 10%);
 
   .no-touch &:hover {
@@ -113,38 +117,38 @@ header {
   }
 
   span {
-    /* tooltip */
+    /* tooltip *//*
     background: $color-1;
     color: $color-5;
 
     &::before {
-      /* right arrow color */
+      /* right arrow color *//*
       border-color: $color-1;
     }
   }
 }
 
 
-/* -------------------------------- 
+*//* -------------------------------- 
 
 xPage title 
 
--------------------------------- */
+-------------------------------- *//*
 
 main > h1 {
   color: $color-2;
 
   @include MQ(L) {
-    /* title goes into the header on big devices */
+    /* title goes into the header on big devices *//*
     color: $color-5;
   }
 }
 
-/* -------------------------------- 
+*//* -------------------------------- 
 
 xTypography 
 
--------------------------------- */
+-------------------------------- *//*
 
 h1,
 h2 {
@@ -179,7 +183,7 @@ h2 {
 }
 
 section > h2::before {
-  /* number before each section title */
+  *//* number before each section title *//*
   color: darken($color-4, 15%);
 }
 
@@ -199,11 +203,11 @@ p {
   }
 }
 
-/* -------------------------------- 
+*//* -------------------------------- 
 
 xButtons 
 
--------------------------------- */
+-------------------------------- *//*
 
 .btn {
   border: none;
@@ -261,25 +265,25 @@ xButtons
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
   color: $color-1;
-}
+}*/
 
 /* -------------------------------- 
 
 xIcons 
 
--------------------------------- */
+-------------------------------- *//*
 
 .cd-icons li {
-  /* icons size */
+  /* icons size *//*
   width: 32px;
   height: 32px;
-}
+}*/
 
 /* -------------------------------- 
 
 xForm 
 
--------------------------------- */
+-------------------------------- *//*
 
 input[type='text'],
 select {
@@ -328,8 +332,8 @@ input[type='checkbox'] {
   @include user-select(none);
 
   &::before,
-  &::after {
-    /* custom radio and check boxes */
+  &::after {*/
+    /* custom radio and check boxes *//*
     content: '';
     display: block;
     width: 16px;
@@ -372,8 +376,8 @@ input[type='checkbox']:checked + label::after {
   display: block;
 }
 
-.cd-select::after {
-  /* switcher arrow for select element */
+.cd-select::after {*/
+  /* switcher arrow for select element *//*
   content: '';
   position: absolute;
   z-index: 1;
@@ -394,9 +398,9 @@ select {
   @include appearance(none);
 }
 
-@import 'partials/basic-style';
+@import 'partials/basic-style';*/
 
-/* Wireframe */
+/* Wireframe *//*
 
 figure {
   padding: 20px;
@@ -409,4 +413,4 @@ figure {
   }
 }
 
-@import 'partials/navigation';
+@import 'partials/navigation';*/
