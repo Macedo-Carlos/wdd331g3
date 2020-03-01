@@ -39,7 +39,8 @@ body {
 
 /* Mobile layout */
 .page-wrapper { 	
-	margin: 0; 
+    margin: 0; 
+    display: grid;    
 	}
 header{
     margin-top:1em;    
@@ -123,3 +124,7 @@ footer {
 .extra1 {
     height: 2em;
 	}
+@media only screen and (max-width: 559px) {
+aside{
+        grid-row: 2/span 1;
+    }}
