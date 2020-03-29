@@ -133,7 +133,7 @@ h3 {
   background-position: center;
   position: absolute;
   top: -100px;
-  left: -75px;
+  left: -85px;
   width: 75px;
   height: 150px;
   z-index: -1;
@@ -169,6 +169,33 @@ footer:after {
   position: absolute;
   width: 75px;
   height: 150px;
+  z-index: -1;
+}
+
+body {
+  position: relative;
+}
+
+@keyframes play9 {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -2700px 0px;
+  }
+}
+.extra1 {
+  background-image: url("images/sprite_30fpscopy.svg");
+  animation-duration: 1500ms;
+  animation-timing-function: steps(9);
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: play9;
+  position: absolute;
+  left: 40px;
   z-index: -1;
 }
 
@@ -319,6 +346,21 @@ abbr {
   header h1, header h2 {
     max-width: 622px;
     margin: 0 auto;
+  }
+
+  .extra2 {
+    background-image: url("images/sprite_30fpscopy.svg");
+    animation-duration: 1500ms;
+    animation-timing-function: steps(9);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: play9;
+    position: absolute;
+    right: 80px;
+    z-index: -1;
   }
 }
 @media only screen and (min-width: 600px) {
