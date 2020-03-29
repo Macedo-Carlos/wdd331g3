@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 75 150"
+   height="150"
+   width="75">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style>
+   #bubble1 {
+      animation: bubble-up 6s ease-in .5s infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+      
+   }
+
+   #bubble3 {
+      animation: bubble-up 6s ease-in .25s infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+   }
+
+   #bubble2 {
+      animation: bubble-up 6s ease-in infinite;
+      transform-box: fill-box;
+      transform-origin: center;      
+   }
+
+   #bubble4 {
+      animation: bubble-up 6s ease-in .75s infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+   }
+
+   @keyframes bubble-up {
+      0% {transform: translateX(5px) translateY(0px) scale(0,0);}
+      75% {transform: translateX(-5px) translateY(0px) scale(0,0);}
+      80% {transform: translateX(5px) translateY(-20px) scale(.15,.15);}
+      85% {transform: translateX(-5px) translateY(-40px) scale(.3,.3);;}
+      90% {transform: translateX(5px) translateY(-60px) scale(.45,.45);;}
+      95% {transform: translateX(-5px) translateY(-80px) scale(.6,.6);;}
+      100% {transform: translateX(5px) translateY(-90px) scale(.75,.75);}
+   }
+  </style>
+  <g
+     transform="translate(0,-294.08332)"
+     id="layer1">
+    <circle
+       r="7"
+       cy="433.01746"
+       cx="19.374369"
+       id="bubble1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#cfd9ff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       r="7"
+       cy="396.88391"
+       cx="59.2202"
+       id="bubble2"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#cfd9ff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       r="7"
+       cy="406.07629"
+       cx="29.168152"
+       id="bubble3"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#cfd9ff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       r="7"
+       cy="422.16296"
+       cx="50.027805"
+       id="bubble4"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#cfd9ff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

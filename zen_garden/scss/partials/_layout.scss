@@ -47,13 +47,13 @@ header{
 }
 
 header h1 {
-    text-shadow: 3px 3px #ffc640;
+    text-shadow: 2px 2px #ffc640;
     letter-spacing: 2px;
 }
 
 header:before {
     content:'';
-    background-image: url('../images/sea-header-3.svg');
+    background-image: url('images/sea-header-3.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
@@ -147,3 +147,73 @@ footer {
 aside{
         grid-row: 2/span 1;
     }}
+
+// Decorative animations
+
+#zen-explanation {
+    position: relative;
+  }
+  
+  #zen-explanation h3:after {
+    content: '';
+    background-image: url('images/bubbles.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -100px;
+    width: 75px;
+    height: 150px;
+    z-index: -1;
+  }
+
+#zen-benefits {
+    position: relative;
+}
+
+#zen-benefits h3:before {
+    content: '';
+    background-image: url('images/bubbles2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -100px;
+    left: -75px;
+    width: 75px;
+    height: 150px;
+    z-index: -1;
+}
+
+#design-archives {
+    position: relative;
+}
+
+#design-archives h3:after {
+    content: '';
+    background-image: url('images/bubbles2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -60px;
+    width: 75px;
+    height: 150px;
+    z-index: -1;
+}
+
+footer {
+    position: relative;
+}
+
+footer:after {
+    content: '';
+    background-image: url('images/bubbles.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 75px;
+    height: 150px;
+    z-index: -1;
+}
