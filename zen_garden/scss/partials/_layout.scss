@@ -40,9 +40,29 @@ body {
 .page-wrapper { 	
     margin: 0; 
     display: grid;    
-	}
+    }
+
 header{
-    margin-top:1em;    
+    margin-top:3em;    
+}
+
+header h1 {
+    text-shadow: 3px 3px #ffc640;
+    letter-spacing: 2px;
+}
+
+header:before {
+    content:'';
+    background-image: url('../images/sea-header-3.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
 }
 
 .intro { 	

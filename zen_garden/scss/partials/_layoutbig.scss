@@ -29,7 +29,7 @@ $L:     1600px;
 @media only screen and (min-width: 600px){
     body {
         margin: 0;
-        padding: 0 2em;
+        padding: 0;
     }
     .page-wrapper{
         display: grid;
@@ -53,8 +53,13 @@ $L:     1600px;
 
     header {
         grid-column: span 2;
-        margin-top: 4em;
-    }    
+        margin-top: 6em;
+    }
+    
+    header:before {
+        height: 200px;
+    }
+
     aside h3{
         text-align: center;
         
