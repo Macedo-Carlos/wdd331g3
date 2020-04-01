@@ -26,26 +26,26 @@
   </metadata>
   <style>
    #bubble1 {
-      animation: bubble-up 6s ease-in .5s infinite;
+      animation: bubble-up 5s ease-in .5s infinite;
       transform-box: fill-box;
       transform-origin: center;
       
    }
 
    #bubble3 {
-      animation: bubble-up 6s ease-in .25s infinite;
+      animation: bubble-up 5s ease-in .25s infinite;
       transform-box: fill-box;
       transform-origin: center;
    }
 
    #bubble2 {
-      animation: bubble-up 6s ease-in infinite;
+      animation: bubble-up 5s ease-in infinite;
       transform-box: fill-box;
       transform-origin: center;      
    }
 
    #bubble4 {
-      animation: bubble-up 6s ease-in .75s infinite;
+      animation: bubble-up 5s ease-in .75s infinite;
       transform-box: fill-box;
       transform-origin: center;
    }
