@@ -90,4 +90,18 @@ $L:     1600px;
         right: 80px;
         z-index: -1;
     }
+    
+    #zen-summary::before {
+        content: '';
+        background-image: url('images/clown-fish2.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        width: 400px;
+        height: 50px;
+        z-index: -1;
+    }
 }

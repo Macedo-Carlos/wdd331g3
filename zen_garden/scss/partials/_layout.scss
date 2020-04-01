@@ -64,13 +64,6 @@ header:before {
     height: 100px;
     z-index: -1;
 }
-
-.intro { 	
-	}
-
-
-header {	
-}
 h3{
     margin-bottom: .5em;
     margin-top: 1.5em;
@@ -80,29 +73,20 @@ h3{
 }
 .summary {    
     margin-top: 1em;    	
-	}
-.summary p {	
-	}
+}
 
-.preamble {
-	
+.preamble {	
     margin-top: 1em;
 	}
 .supporting {	
-	
     margin-top: 1em;
-	}
-
-footer { 
-	
-	}
+}
 .design-selection ul,.design-archives ul{    
     display: grid;    
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;    
-    
-    
 }
+
 .zen-resources li{
     margin: 1em;
     padding: 1em
@@ -113,44 +97,49 @@ footer {
 /*.design-name{
     padding: 1em;
 }*/
-.sidebar .wrapper { 	
-    
-	}
-.sidebar h3.select {		
-    
-	}
-.sidebar h3.archives { 
-    
-	}
-.sidebar h3.resources { 	
-    
-	}
 
-.sidebar ul {
-    
+.sidebar ul {    
 	margin: 0;
 	padding: 0;
-	}
-.sidebar li {			
-    
-	}
-.sidebar li a:link {	
-	}
-.sidebar li a:visited {	
-	}
+}
 
 
 .extra1 {
     height: 2em;
-	}
+}
+
 @media only screen and (max-width: 559px) {
-aside{
+    .sidebar::before {
+        content: '☰';
+        font-size: 2em;
+        position: absolute;
+        left: -50px;
+        transform: scale(1.5,1);
+        color: white;
+        text-shadow: 2px 2px 4px black;
+    }
+      
+    .sidebar {
+        position: absolute;
+        background-color: #91a2e8;
+        padding: 10px;
+        right: -725px;
+        transition: all .25s ease-in-out;
+    }
+      
+    .sidebar:hover {
+        right: 0;
+    }
+
+
+    aside{
         grid-row: 2/span 1;
-    }}
+    }
+}
 
 // Decorative animations
 
-#zen-explanation {
+#zen-explanation, #zen-benefits, #design-archives, #zen-preamble {
     position: relative;
   }
   
@@ -167,10 +156,6 @@ aside{
     z-index: -1;
   }
 
-#zen-benefits {
-    position: relative;
-}
-
 #zen-benefits h3:before {
     content: '';
     background-image: url('images/bubbles2.svg');
@@ -185,11 +170,20 @@ aside{
     z-index: -1;
 }
 
-#design-archives {
-    position: relative;
+#zen-preamble h3::after {
+    content: '';
+    background-image: url('images/bubbles2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -60px;
+    width: 75px;
+    height: 150px;
+    z-index: -1;
 }
 
-#design-archives h3:after {
+#design-archives h3::after {
     content: '';
     background-image: url('images/bubbles2.svg');
     background-repeat: no-repeat;
@@ -269,14 +263,14 @@ a.zen-validate-html:hover, a.zen-validate-css:hover, a.zen-license:hover, a.zen-
 
 footer:after {
     content: '';
-    background-image: url('images/bubbles.svg');
+    background-image: url('images/clown-fish.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 80px;
-    width: 75px;
-    height: 150px;
+    top: 180px;
+    width: 400px;
+    height: 50px;
     z-index: -1;
 }
 

@@ -20,6 +20,7 @@
       transform-origin: center;
       animation: fish-swim 8s ease-in infinite;
       background-color: red;
+      animation-direction: reverse;
    }
 
    #fish-bowl {
@@ -43,9 +44,9 @@
    }
 
    @keyframes fish-motion {
-      0% {transform: translate(-150px);}
-      50% {transform: translate(150px);}
-      100% {transform: translate(-150px);}
+      0% {transform: translate(150px);}
+      50% {transform: translate(-150px);}
+      100% {transform: translate(150px);}
    }
    </style>
   <g
